@@ -1,6 +1,7 @@
 # This docker file is used for local development via docker-compose
-# Creating image based on official python3 image
-FROM python:3.10
+
+# Creating python image
+FROM python:3.12.2-alpine3.19
 
 # Fix python printing
 ENV PYTHONUNBUFFERED 1
