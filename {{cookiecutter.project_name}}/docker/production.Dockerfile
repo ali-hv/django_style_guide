@@ -1,5 +1,6 @@
 # This docker file is used for production
-# Creating image based on official python3 image
+
+# Creating python image
 FROM python:3.12.2-alpine3.19
 
 # Installing all python dependencies
